@@ -1,0 +1,1 @@
+# OneCaseOfK2NotRecompileAfterViewBindingChanged

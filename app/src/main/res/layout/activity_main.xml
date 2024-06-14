@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--The issue reproduction step-->
+    <!--1.Use 'TextView' label, compile&install the production on an android phone.-->
+    <!--2.Change 'TextView' label to 'EditText' label, compile&install production again.-->
+    <!--3.Launch the production app, you will get a app crash with 'java.lang.NoSuchFieldError: No instance field tvHello of type Landroid/widget/TextView; in class Lsg/b/mobile/onecase/databinding/ActivityMainBinding;'-->
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

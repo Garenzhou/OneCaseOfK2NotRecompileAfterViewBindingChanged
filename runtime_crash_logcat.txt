@@ -1,0 +1,22 @@
+2024-06-14 19:39:44.048 29754-29754 AndroidRuntime          sg.b.mobile.onecase                  D  Shutting down VM
+2024-06-14 19:39:44.049 29754-29754 AndroidRuntime          sg.b.mobile.onecase                  E  FATAL EXCEPTION: main
+                                                                                                    Process: sg.b.mobile.onecase, PID: 29754
+                                                                                                    java.lang.NoSuchFieldError: No instance field tvHello of type Landroid/widget/TextView; in class Lsg/b/mobile/onecase/databinding/ActivityMainBinding; or its superclasses (declaration of 'sg.b.mobile.onecase.databinding.ActivityMainBinding' appears in /data/app/~~ijuQG0wAz5DmroKEYktQVg==/sg.b.mobile.onecase-EnvrPDyHyis3p7RM-IOezw==/base.apk!classes3.dex)
+                                                                                                    	at sg.b.mobile.onecase.MainActivity.onCreate(MainActivity.kt:18)
+                                                                                                    	at android.app.Activity.performCreate(Activity.java:8290)
+                                                                                                    	at android.app.Activity.performCreate(Activity.java:8269)
+                                                                                                    	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1384)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3657)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3813)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:101)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2308)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:201)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7898)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+2024-06-14 19:39:44.068 29754-29754 Process                 sg.b.mobile.onecase                  I  Sending signal. PID: 29754 SIG: 9
